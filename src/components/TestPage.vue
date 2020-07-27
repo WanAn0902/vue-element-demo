@@ -1,21 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <el-button type="primary" @click="to">按需加载的按钮</el-button>
-  </div>
+<div class="testPage">
+      <el-button type="primary" @click="to">第一次跳转</el-button>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }, 
-  methods: {
-    to() {
-      this.$router.push("/foo");
-    }
-  }
+  name: 'TestPage',
 }
 </script>
 
